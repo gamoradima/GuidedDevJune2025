@@ -30,7 +30,7 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"code": "PDS_UsrName",
 							"caption": "#ResourceString(PDS_UsrName)#",
 							"dataValueType": 1,
-							"width": 172
+							"width": 148
 						},
 						{
 							"id": "7092576b-f33b-e3cd-670e-13526ea6125c",
@@ -44,20 +44,21 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"code": "PDS_UsrType",
 							"caption": "#ResourceString(PDS_UsrType)#",
 							"dataValueType": 10,
-							"width": 158
-						},
-						{
-							"id": "f73b6a6e-cd3f-b8b1-ad5d-9b976ab4e5d0",
-							"code": "PDS_UsrOfferType",
-							"caption": "#ResourceString(PDS_UsrOfferType)#",
-							"dataValueType": 10,
-							"width": 153
+							"width": 125
 						},
 						{
 							"id": "6ecaa5f4-5d94-2cf4-edcd-47364be9bd45",
 							"code": "PDS_CreatedOn",
 							"caption": "#ResourceString(PDS_CreatedOn)#",
-							"dataValueType": 7
+							"dataValueType": 7,
+							"width": 137
+						},
+						{
+							"id": "c3cde76b-5dad-dae4-c27f-e8cae9dedb3b",
+							"code": "PDS_UsrComment",
+							"caption": "#ResourceString(PDS_UsrComment)#",
+							"dataValueType": 28,
+							"width": 133
 						}
 					]
 				}
@@ -88,14 +89,14 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"path": "PDS.UsrType"
 						}
 					},
-					"PDS_UsrOfferType": {
-						"modelConfig": {
-							"path": "PDS.UsrOfferType"
-						}
-					},
 					"PDS_CreatedOn": {
 						"modelConfig": {
 							"path": "PDS.CreatedOn"
+						}
+					},
+					"PDS_UsrComment": {
+						"modelConfig": {
+							"path": "PDS.UsrComment"
 						}
 					}
 				}
@@ -121,11 +122,11 @@ define("UsrRealty_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"UsrType": {
 							"path": "UsrType"
 						},
-						"UsrOfferType": {
-							"path": "UsrOfferType"
-						},
 						"CreatedOn": {
 							"path": "CreatedOn"
+						},
+						"UsrComment": {
+							"path": "UsrComment"
 						}
 					}
 				}
