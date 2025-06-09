@@ -3,9 +3,14 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Realty form page" />
+			<Item Name="LocalizableStrings.addRecord_42rdnwx_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_beog1x4_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ntymxyu_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_p68t0sn_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_zdh1lse_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area cannot be less than 10 sq m" />
+			<Item Name="LocalizableStrings.NumberInput_6kk353s_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 20.0 GBP" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 		</Items>
 	</Group>

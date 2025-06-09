@@ -1,28 +1,35 @@
-{
+﻿{
   "MetaData": {
     "Schema": {
       "ManagerName": "AddonSchemaManager",
-      "UId": "1c1bc533-61a7-4ad5-982d-5ed97e04cfa2",
+      "UId": "a36aea03-930c-40b7-a560-8ffed5db0773",
       "A2": "UsrRealtyRelatedPage",
-      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "A5": "6aefb788-a848-4667-931e-b7aea249f537",
       "B1": [],
       "B2": [],
       "B3": [],
-      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
-      "B8": "0.0.0.0",
+      "B6": "fa55f486-1dc7-45c9-8ef2-cff2cccd7392",
+      "B8": "8.2.3.1351",
       "AD1": "5b4644fe-ac96-4506-8560-1531e5e7738f",
       "AD2": "EntitySchemaManager",
       "AD3": "RelatedPage",
       "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
       "AD4": {
-        "Pages": [
-          {
-            "UId": "03e89945-d9a3-424f-a976-f9c4b70250d6",
-            "PageSchemaUId": "a2ab0bca-cb13-4a74-8c46-479400dec69e",
-            "IsDefault": true
-          }
-        ]
-      }
+  "Pages": [
+    {
+      "UId": "f8619af8-a3ee-5637-c861-e82f5cb5405e",
+      "PageSchemaUId": "a2ab0bca-cb13-4a74-8c46-479400dec69e",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": false
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
     }
   }
 }
