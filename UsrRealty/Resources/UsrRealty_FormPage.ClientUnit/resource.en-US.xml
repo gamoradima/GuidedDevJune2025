@@ -22,6 +22,7 @@
 			<Item Name="LocalizableStrings.NumberInput_6kk353s_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 20.0 GBP" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
+			<Item Name="LocalizableStrings.RunWebServiceMenuItem_caption.Value" Value="Call Max Realty price web service" />
 		</Items>
 	</Group>
 </Resources>
